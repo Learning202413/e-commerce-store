@@ -1,10 +1,8 @@
 # 🗺️ Mapa de la Base de Datos (Microservicios Textiles)
 
-¡Hola equipo! 👋 He preparado este diagrama para que todos tengamos súper claro cómo está armada nuestra base de datos en los servidores de producción (`sistematextil.pp.ua`). 
 
 Como estamos usando una arquitectura moderna basada en microservicios, nuestras tablas no están todas amontonadas en una sola base de datos gigante. Cada servicio tiene su propia parcela de información. Para que el diagrama sea fácil de leer, he usado **líneas sólidas** para mostrar las relaciones tradicionales (dentro de una misma base de datos) y **líneas punteadas** para mostrar cómo viajan los IDs a través de internet de un microservicio a otro.
 
-¡Espero que esta radiografía de nuestro backend les sea muy útil! 🚀
 
 ```mermaid
 erDiagram
